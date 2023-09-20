@@ -1,0 +1,67 @@
+<html>
+    <head>
+        <title>Data page</title>
+        <style>
+            table, th, td {
+                border: 1px solid black;
+                border-collapse: collapse;
+
+              }
+              th, td {
+                text-align: center;
+                padding: 15px;
+              }
+              th {
+                height: 70px;
+                background-color: #04AA6D;
+                color: white;
+                  
+                
+              }
+              table {
+                margin-left:18rem;
+                width: 58%;
+              }
+              #btnb{
+                margin-top:12rem;
+                height:28px;
+                background-color: lightgreen;
+                margin-left:30rem;
+                
+
+              }
+              a:link {
+                text-decoration: none;
+              }
+              
+              p{
+                margin-top:4rem;
+                font-size:1.4rem;
+                text-align:center;
+            
+              }
+              h2{
+                text-align:center;
+                padding:8px;
+              }
+              tr:hover {background-color: coral;}
+        </style>
+    </head>
+    <body>
+        <h2> Data Submit By You </h2>
+        <table>
+            <tr>
+              <th>Name</th>
+              <th>Email</th>
+            </tr>
+            <tr>
+              <td>{{name}}</td>
+              <td>{{email }}</td>
+
+            </tr>
+           
+          </table>
+         <button id='btnb'> <a href="{% url 'homePage' %}">Go back to the home page</a> </button>
+          <p> Or if you want to back main page pleage Change URL with <b>"/homePage" /<b> </p>
+    </body>
+</html>

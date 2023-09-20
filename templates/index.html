@@ -1,0 +1,66 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChainTech Webpage</title>
+    <link rel="stylesheet" href="/static/styles.css" type='text/css'> <!-- Link to your CSS file -->
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h2>Welcome to this Website </h2>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#footer">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <section>
+            <h2>Welcome to Our Website</h2>
+            <p>This is the main content area of our web page.
+                My Name is  <b>Shailendra Kumar Yadav </b> My Native place Jaunpur .
+                My Current Location is Surat.
+                My Highest Qualification is B.Tech in Information Technology From 
+                Veer Bahadur Singh Purvanchal University Jaunpur in oct-2022.
+                My Skills are HTML, CSS , JavaScript , Python, SQL Server and React JS
+                These Skills are learn from Naresh IT Technology Hyderabad.
+                Currently I am Looking for a Job as Fresher ,
+            </p>
+            <h2> Exercise 3: Adding Dynamic Content </h2>
+          <p><b> Current Time: {{current_time }} <b></p>
+          <p><b> Random Quote: {{random_quote }} <b></p>
+
+           
+    <div>
+        <h2> Form Handling Section <h2>
+  <form method="post" action="{% url 'submit' %}">
+    {% csrf_token %}
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required autofocus maxlength='45' minlength='3'><br><br>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <input type="submit" id='btn' value="Submit">
+</form>
+ 
+</div>
+</section>
+
+    </main>
+     <footer id="footer">
+        <p>Contact Information:</p>
+        <p>Email: shailendraahir1998@email.com</p> 
+        <p>Phone: 9451214709</p> 
+        <p>Github: SH12517</p> 
+       
+    </footer>
+</body>
+</html>

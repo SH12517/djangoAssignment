@@ -1,0 +1,94 @@
+
+/* Style the header */
+header {
+    position: relative;
+    background-color: rgb(126, 190, 164);
+    color: #181616;
+    padding: 3px;
+    
+} 
+h2{
+    text-align: center;
+}
+
+nav ul {
+       
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    background-color: aqua;
+    padding: 18px;
+}
+ 
+
+nav li {
+    margin-right: 30px;
+    font-size: 1.82rem;
+    margin-left: 3.5rem;
+    
+}
+
+p{
+    font-size: larger;
+    line-height: 26px;
+}
+
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav li :hover{
+    background-color: #47ce7f;
+    cursor: pointer;
+}
+
+/* Style the main content */
+main {
+    padding: 10px;
+}
+
+/* Style the footer */
+footer {
+    height: 190px;
+    margin-top: 1.5689rem;
+    background-color: #47ce7f;
+    color: #fff;
+    border-radius: 10px;
+    box-shadow: 1px 2px 3px 8px rgb(162, 226, 97);
+    text-align:center;
+    padding: 1px;
+    
+}
+/* form style  */
+ input{
+    border: #47ce7f solid;
+    height: 28px;
+    width: 30%;
+ }
+ div{
+    background-color: #6fdd9d;
+    width: 60%;
+    height: 250px;
+    padding: 15px;
+    margin-left: 18rem;
+    display: block;
+    align-items: center;
+    justify-content: center;
+ }
+ #btn{
+    height: 45px;
+    width: 132px;
+    color: aliceblue;
+    background-color: #0faf01;
+    font-size: 20px;
+    border-radius: 14px;
+    padding: 5px;
+ }
+ #btn:hover{
+ cursor: pointer;
+ background-color: #520bd6;
+ box-shadow: 0 2px 4px 8px  #4eeb06;
+
+ }
